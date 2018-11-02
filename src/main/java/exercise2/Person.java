@@ -1,7 +1,7 @@
 package exercise2;
 
 class Person {
-	public static int getPopulationSize;
+	public static int getPopulation;
 	private static int populationsize= 0;
 	private static long totalAge= 0;
 	public int age;
@@ -22,5 +22,6 @@ class Person {
 
 	public static void resetPopulation()  {
 		populationsize = 0;
+		totalAge=0;
 	}
 }
